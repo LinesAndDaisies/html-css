@@ -7,3 +7,8 @@ td a:hover {
     color: lawngreen;
     text-decoration: underline;
 }
+
+img {
+    width: 10%;
+    height: auto;
+}
