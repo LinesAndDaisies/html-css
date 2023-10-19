@@ -38,22 +38,70 @@ td {
     background-color: rgba(255, 204, 204, 0.7);
 }
 
+.ACOTAR a {
+    color: crimson;
+}
+
+.ACOTAR a:hover {
+    color: maroon;
+}
+
 .Fourth-wing {
     background-color: rgba(255, 255, 153, 0.5);
+}
+
+.Fourth-wing a {
+    color: gold;
+}
+
+.Fourth-wing a:hover {
+    color: sienna;
 }
 
 .Addicted {
     background-color: rgba(230, 230, 250, 0.6); 
 }
 
+.Addicted a {
+    color: darkorchid;
+}
+
+.Addicted a:hover {
+    color: fuchsia;
+}
+
 .Magnolia-parks {
     background-color: rgba(152, 251, 152, 0.4);
+}
+
+.Magnolia-parks a {
+    color: darkolivegreen;
+}
+
+.Magnolia-parks a:hover {
+    color: greenyellow;
 }
 
 .Cruel-prince {
     background-color: rgba(255, 204, 153, 0.4);
 }
 
+.Cruel-prince a {
+    color: darkorange;
+}
+
+.Cruel-prince a:hover {
+    color: tomato
+}
+
 .Prison-healer {
     background-color: rgba(173, 216, 230, 0.5);
+}
+
+.Prison-healer a {
+    color: deepskyblue;
+}
+
+.Prison-healer a:hover {
+    color: cyan;
 }
