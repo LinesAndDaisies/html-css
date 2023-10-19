@@ -1,0 +1,9 @@
+td a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+td a:hover {
+    color: lawngreen;
+    text-decoration: underline;
+}
