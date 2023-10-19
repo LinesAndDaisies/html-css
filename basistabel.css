@@ -30,10 +30,12 @@ td {
     font-size: 20px;
 }
 
+/*Opmaak titel*/
 .Titels {
     background-color: rgba(220, 220, 220, 0.3);
 }
 
+/*Opmaak ACOTAR*/
 .ACOTAR {
     background-color: rgba(255, 204, 204, 0.7);
 }
@@ -46,6 +48,7 @@ td {
     color: maroon;
 }
 
+/*Opmaak Fourth Wing*/
 .Fourth-wing {
     background-color: rgba(255, 255, 153, 0.5);
 }
@@ -58,6 +61,7 @@ td {
     color: sienna;
 }
 
+/*Opmaak Addicted*/
 .Addicted {
     background-color: rgba(230, 230, 250, 0.6); 
 }
@@ -70,6 +74,7 @@ td {
     color: fuchsia;
 }
 
+/*Opmaak Magnolia Parks*/
 .Magnolia-parks {
     background-color: rgba(152, 251, 152, 0.4);
 }
@@ -82,6 +87,7 @@ td {
     color: greenyellow;
 }
 
+/*Opmaak The Cruel Prince*/
 .Cruel-prince {
     background-color: rgba(255, 204, 153, 0.4);
 }
@@ -94,6 +100,7 @@ td {
     color: tomato
 }
 
+/*Opmaak The Prison Healer*/
 .Prison-healer {
     background-color: rgba(173, 216, 230, 0.5);
 }
