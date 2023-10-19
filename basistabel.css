@@ -8,7 +8,14 @@ td a:hover {
     text-decoration: underline;
 }
 
-img {
-    width: 10%;
-    height: auto;
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
 }
