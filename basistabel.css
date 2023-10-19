@@ -30,6 +30,14 @@ td {
     font-size: 20px;
 }
 
+thead {
+    height: 40px;
+}
+
+tfoot {
+    height: 40px;
+}
+
 /*Opmaak titel*/
 .Titels {
     background-color: rgba(220, 220, 220, 0.3);
