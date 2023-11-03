@@ -9,8 +9,21 @@
     border: 1px solid white;
     border-radius: 25px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.145);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
 }
 
 input:focus {
     border-color: red;
+}
+
+
+.linktekst {
+    color: #70757a;
+    padding: 15px;
+    display: block;
+    white-space: nowrap;
+    font-size: 14px;
+    font-family: arial, sans-serif;
 }
