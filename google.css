@@ -27,6 +27,11 @@ input:focus {
 .linktekst-onder {
     color: #70757a;
     padding: 15px;
-    display: block;
     white-space: nowrap;
+    align-content: flex-end;
+}
+
+.linktekst-boven {
+    color: #202124;
+
 }
