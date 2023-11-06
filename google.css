@@ -3,9 +3,17 @@ body {
     font-family: arial, sans-serif;
 }
 
-img {
+.logo {
     width: 300px;
     height: auto;
+}
+
+.puntjes {
+    width: 17px;
+    height: auto;
+    opacity: 0.6; /*maakt afbeelding minder fel*/
+    padding-left: 13px;
+    padding-right: 13px;
 }
 
 a {
@@ -36,6 +44,11 @@ input:focus {
     border-color: red;
 }
 
+.tekst-rechts-boven {
+    position: relative;
+    display: block;
+}
+
 .tekst-boven {
     display: flex;
     flex-direction: row;
@@ -57,7 +70,7 @@ input:focus {
     height: 100vh;
 }
 
-.linkjes-rechts-bovenin a:nth-child(3) {
+.tekst-rechts-boven a:nth-child(4) {
     border: 5px solid transparent;
     border-radius: 4px;
     padding: 5px 18px;
