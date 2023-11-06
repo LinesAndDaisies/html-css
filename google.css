@@ -36,6 +36,20 @@ input:focus {
     border-color: red;
 }
 
+.tekst-boven {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.linktekst-boven {
+    color: #202124;
+    padding: 6px;
+
+}
+
 .grijzebalk {
     display: flex;
     flex-direction: row;
@@ -43,11 +57,20 @@ input:focus {
     height: 100vh;
 }
 
+.linkjes-rechts-bovenin a:nth-child(3) {
+    border: 5px solid transparent;
+    border-radius: 4px;
+    padding: 5px 18px;
+    background-color: #1a73e8;
+    color: white; 
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none; 
+
+}
+
 .linktekst-onder {
     color: #70757a;
     padding: 20px;
 }
 
-.linktekst-boven {
-    color: #202124;
-}
