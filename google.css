@@ -67,7 +67,7 @@ input:focus {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 100vh;
+    align-content: flex-end;
 }
 
 .tekst-rechts-boven a:nth-child(4) {
