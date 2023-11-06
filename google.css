@@ -4,7 +4,7 @@ body {
 }
 
 img {
-    width: 100px;
+    width: 300px;
     height: auto;
 }
 
@@ -28,15 +28,18 @@ input:focus {
     border-color: red;
 }
 
+.grijzebalk {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+}
 
-.linktekst-onder {
+.linksonder .middenonder .rechtsonder {
     color: #70757a;
-    padding: 15px;
-    white-space: nowrap;
-    align-content: flex-end;
+    padding: 20px;
 }
 
 .linktekst-boven {
     color: #202124;
-
 }
