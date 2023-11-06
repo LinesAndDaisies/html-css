@@ -8,6 +8,14 @@ img {
     height: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .zoekbalk {
     text-align: center;
     
@@ -35,7 +43,7 @@ input:focus {
     height: 100vh;
 }
 
-.linksonder .middenonder .rechtsonder {
+.linktekst-onder {
     color: #70757a;
     padding: 20px;
 }
