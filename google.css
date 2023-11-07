@@ -1,6 +1,7 @@
 body {
     font-size: 14px;
     font-family: arial, sans-serif;
+    margin: 0;
 }
 
 .logo {
@@ -26,16 +27,6 @@ a:hover {
 
 .zoekbalk {
     text-align: center;
-}
-
-.nederland {
-    padding: 15px 30px;
-    border-bottom: 1px solid #dadce0;
-    font-size: 15px;
-    color: #70757a;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .knoppen input[type="submit"] {
@@ -76,6 +67,9 @@ a:hover {
     justify-content: space-between;
     height: 50px;
     align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 .linktekst-boven {
@@ -90,11 +84,21 @@ a:hover {
     align-items: center;
 }
 
+.nederland {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    margin-top: 250px;
+}
+
 .grijzebalk {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 290px;
     border: 1px solid #f2f2f2;
     background-color: #f2f2f2;
     padding: 15px 20px;
