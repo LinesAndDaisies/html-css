@@ -28,6 +28,16 @@ a:hover {
     text-align: center;
 }
 
+.nederland {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .knoppen input[type="submit"] {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
@@ -45,17 +55,15 @@ a:hover {
 #zoek {
     padding: 14px;
     width: 450px;
-    border: 1px solid white;
+    border: 1px solid #dfe1e5;
     border-radius: 25px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.145);
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
     outline: none;
 }
 
-input:focus {
-    border-color: red;
+#zoek:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.145);
 }
+
 
 .tekst-rechts-boven {
     position: relative;
@@ -73,7 +81,6 @@ input:focus {
 .linktekst-boven {
     color: #202124;
     padding: 6px;
-
 }
 
 .frysk {
@@ -87,10 +94,10 @@ input:focus {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 310px;
+    margin-top: 290px;
     border: 1px solid #f2f2f2;
     background-color: #f2f2f2;
-    padding: 0 20px;
+    padding: 15px 20px;
 }
 
 .tekst-rechts-boven a:nth-child(4) {
