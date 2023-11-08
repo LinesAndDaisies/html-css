@@ -2,6 +2,7 @@ body {
     font-size: 14px;
     font-family: arial, sans-serif;
     margin: 0;
+    min-height: 90vh;
 }
 
 .logo {
@@ -45,22 +46,41 @@ a:hover {
     border: 1px solid #dadce0
 }
 
-#zoek {
-    padding: 14px;
-    width: 550px;
+.searchbar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
     border: 1px solid #dfe1e5;
     border-radius: 25px;
+    padding: 8px;
+    width: 550px;
+    margin: auto;
+}
+
+.search-icon img {
+    width: 15px; 
+    height: 15px; 
+    margin: 0 5px;
+}
+
+.camera-icon img {
+    width: 25px; 
+    height: 25px;
+    margin: 0 5px;
+}
+
+#zoek {
+    border: none;
+    width: 500px;
     outline: none;
-    background-image: url(img/googlecameraicon.png), url(img/grijszoekicoon.png);
-    background-size: 30px 30px, 15px 15px;
-    background-repeat: no-repeat, no-repeat;
-    background-position: 535px, 15px;
 }
 
-#zoek:hover {
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.145);
+#zoek input[type="text"] {
+    flex: 1; 
+    outline: none;
+    border: none;
+    font-size: 14px;
 }
-
 
 .tekst-rechts-boven {
     position: relative;
@@ -90,6 +110,12 @@ a:hover {
     align-items: center;
 }
 
+footer {
+    position: sticky;
+    bottom: 0;
+    margin-top: 12.5%;
+}
+
 .nederland {
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
@@ -98,7 +124,13 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     background-color: #f2f2f2;
-    margin-top: 12.6%;
+    
+}
+
+.middenonder img {
+    width: 14px;
+    height: 14px;
+    padding-right: 4px;
 }
 
 .grijzebalk {
