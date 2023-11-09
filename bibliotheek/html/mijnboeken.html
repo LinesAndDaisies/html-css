@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"type="text/css"href="./mijnboeken.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" /> <!--Voegt DataTables CSS toe-->
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script> <!--Voegt DataTables JS toe-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!--Voegt jQuery toe (dit is vereist voor DataTables)-->
+    <title>Karlijn's bibliotheek</title>
+</head>
+
+<body>
+    <nav>
+        <a href="./bibliotheek.html">Home</a>
+        <a href="./mijnboeken.html">Mijn Boeken</a>
+        <a href="./gelezenboeken.html">Gelezen Boeken</a>
+        <a href="./tbr.html">TBR</a>
+        <a href="./reviews.html">Reviews</a>
+    </nav>
+
+    <table id="myTable" class="display">
+        <thead>
+            <tr>
+                <th>Boek</th>
+                <th>Schrijver</th>
+                <th>Genre</th>
+                <th>Afbeelding</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1 Data 1</td>
+                <td>Row 1 Data 2</td>
+                <td>Row 1 Data 3</td>
+                <td>Row 1 Data 4</td>
+            </tr>
+            <tr>
+                <td>Row 2 Data 1</td>
+                <td>Row 2 Data 2</td>
+                <td>Row 2 Data 3</td>
+                <td>Row 2 Data 3</td>
+            </tr>
+            <tr>
+                <td>Row 3 Data 1</td>
+                <td>Row 3 Data 2</td>
+                <td>Row 3 Data 3</td>
+                <td>Row 3 Data 4</td>
+            </tr>
+        </tbody>
+    </table>
+
+<!--Hiermee activeer ik DataTables op mijn tabel-->
+    <script> 
+        $(document).ready( function () {
+            $('#myTable').DataTable();
+        } );
+    </script>
+
+</body>
+
+
+
+</html>
