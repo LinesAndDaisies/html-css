@@ -32,6 +32,7 @@ a:hover {
     margin-top: 70px;
 }
 
+
 .knoppen input[type="submit"] {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
@@ -64,9 +65,9 @@ a:hover {
 }
 
 .camera-icon img {
-    width: 25px; 
-    height: 25px;
-    margin: 0 5px;
+    width: 27px; 
+    height: 27px;
+    margin: 0 -5px;
 }
 
 #zoek {

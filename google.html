@@ -29,13 +29,21 @@
             <div class="search-icon">
                 <img src="img/grijszoekicoon.png" alt="search icon">
             </div>
-            <input type="text" id="zoek"> <br>
+            <form id="googleSearchForm" action="https://www.google.com/search" method="GET">
+                <input type="text" name="q" id="zoek">
+            </form>
+             <br>
             <div class="camera-icon">
                 <img src="img/googlecameraicon.png" alt="camera icon">
             </div>
         </div>
         <div class="knoppen">
-            <input value="Google zoeken" aria-label="Google zoeken" name="google zoeken" role="button" type="submit">
+            <input onclick="submitGoogleSearch()" value="Google zoeken" aria-label="Google zoeken" name="google zoeken" role="button" type="submit">
+            <script>
+                function submitGoogleSearch() {
+                    document.getElementById('googleSearchForm').submit();
+                }
+            </script>
             <input class="gok" value="Ik doe een gok" aria-label="Ik doe een gok" name="ik doe een gok" type="submit">
         </div>
     </div>
