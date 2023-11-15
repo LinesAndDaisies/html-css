@@ -1,0 +1,47 @@
+body {
+    background-color: darkseagreen;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+thead {
+    font-size: 20px;
+    color: darkslategray;
+    text-shadow: 1px 1px 3px darkgreen;
+
+}
+
+table {
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 2px solid rgba(0, 100, 0, 0.3);
+}
+
+td {
+    padding: 8px;
+}
+
+.Book-link:hover{
+    color: darkslategray;
+    text-decoration: underline;
+}
+
+.Book-link {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.Spoilers {
+    font-weight: bold;
+}
+
