@@ -5,3 +5,4 @@ window.addEventListener('load', function () {
     var rowCountRow = document.getElementById('rowCount');
     rowCountRow.textContent = 'Hoeveel boeken ik nog wil lezen: ' + rowCount;
 }); 
+

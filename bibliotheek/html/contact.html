@@ -18,13 +18,15 @@
         <a href="./contact.html">Contact</a>
     </nav>
 
-    <h1>Contactformulier</h1>
+    <h1 class="contact">Contactformulier</h1>
 
-    <p>Door dit contactformulier in te vullen, kun je een suggestie voor een review in sturen. Ik dan proberen om het boek te lezen en een review te schrijven.</p>
+    <p class="contact">Door dit contactformulier in te vullen, kun je een suggestie voor een review in sturen.<br>
+        Ik ga dan het boek lezen en een review schrijven.</p>
 
     <form action="mailto:97058602@st.deltion.nl" method="post">
 
         <div class="contactformulier">
+            <h1>Vul in!</h1>
 
             <label for="naam">Naam:</label><br>
             <input type="text" id="voornaam" naam="voornaam" placeholder="Voornaam" value="" required maxlength="100"><br>
@@ -38,6 +40,16 @@
             <label for="schrijver">Schrijver</label><br>
             <input type="text" id="schrijver" naam="schrijver" placeholder="Schrijver" value="" required><br>
 
+            <label for="sterren">Hoeveel sterren geef je het boek?</label><br>
+            <div class="sterren-rating" id="sterren-rating">
+                <span class="ster" onclick="setRating(1)">★</span>
+                <span class="ster" onclick="setRating(2)">★</span>
+                <span class="ster" onclick="setRating(3)">★</span>
+                <span class="ster" onclick="setRating(4)">★</span>
+                <span class="ster" onclick="setRating(5)">★</span>
+            </div>
+            <input type="hidden" id="sterren" name="sterren" value="0" required>
+
             <label for="opmerking">Opmerking:</label><br>
             <textarea id="opmerking" name="opmerking" placeholder="Typ hier uw opmerkingen..." value="" rows="5" cols="40" maxlength="400"></textarea><br>
 
@@ -46,6 +58,8 @@
         </div>
 
     </form>
+
+    <script src="contact.js"></script>
 
 </body>
 

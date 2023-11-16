@@ -1,18 +1,72 @@
-body.tbr {
-    background-color: darkseagreen;
-}
+/*hieronder css voor algemeen*/
 
-body.mijn-boeken {
-    background-color: blue;
+body {
+    background-color: darkseagreen;
 }
 
 h1 {
     color: darkgreen;
 }
 
-h1.mijn-boekenh1 {
-    color: red;
+
+
+/*hieronder css voor contact*/
+
+.contact {
+    text-align: center;
 }
+
+  /* Voeg wat stijl toe aan de sterren (optioneel) */
+.sterren-rating {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.sterren-rating .ster {
+    display: inline-block;
+    margin-right: 5px;
+    color: darkgreen;
+}
+
+.contactformulier {
+    text-align: center;
+    background-color: #00fd0046;
+    border: 10px double darkgreen;
+    border-radius: 30px;
+    width: 400px;
+    margin: auto;
+    margin-top: 25px;
+    padding-bottom: 40px;
+
+}
+
+.contactformulier label {
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: darkgreen;
+    color: white;
+    border: 2px solid darkgreen;
+}
+
+input[type="submit"]:hover {
+    background-color: darkseagreen;
+    color: black;
+    border: 2px solid black;
+}
+
+.contactformulier input[type="text"],
+.contactformulier textarea {
+    border-color: darkgreen;
+    border-width: 2px;
+    border-style: inset;
+    margin-bottom: 10px;
+}
+
+
+
+/*hieronder css voor tbr*/
 
 img {
     width: 100px;
