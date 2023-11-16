@@ -65,6 +65,28 @@ h3 {
     margin-top: 55px;
 }
 
+.nieuws {
+    background-color: #00fd0046;
+    border: 10px double darkgreen;
+    border-radius: 30px;
+    width: 400px;
+}
+
+.nieuws ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+}
+
+.nieuws ul > ul > li {
+    padding-left: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 .socials {
     margin-left: 40%;  
 }
