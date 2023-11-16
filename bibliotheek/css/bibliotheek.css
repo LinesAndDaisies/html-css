@@ -2,13 +2,37 @@
 
 body {
     background-color: darkseagreen;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     color: darkgreen;
+    margin-top: 50px;
 }
 
+.navigatiebar {
+    background-color: #64A164;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 20px;
+}
 
+.navigatiebar a {
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navigatiebar a:hover {
+    text-decoration: underline;
+    color: darkseagreen;
+}
 
 /*hieronder css voor contact*/
 
@@ -16,7 +40,6 @@ h1 {
     text-align: center;
 }
 
-  /* Voeg wat stijl toe aan de sterren (optioneel) */
 .sterren-rating {
     font-size: 24px;
     cursor: pointer;
@@ -36,6 +59,7 @@ h1 {
     width: 400px;
     margin: auto;
     margin-top: 25px;
+    margin-bottom: 30px;
     padding-bottom: 40px;
 
 }
