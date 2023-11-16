@@ -1,9 +1,17 @@
-body {
+body.tbr {
     background-color: darkseagreen;
+}
+
+body.mijn-boeken {
+    background-color: blue;
 }
 
 h1 {
     color: darkgreen;
+}
+
+h1.mijn-boekenh1 {
+    color: red;
 }
 
 img {
