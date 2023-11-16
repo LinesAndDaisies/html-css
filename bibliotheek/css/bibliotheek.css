@@ -11,6 +11,15 @@ h1 {
     margin-top: 50px;
 }
 
+h2 {
+    color: darkslategray;
+    text-shadow: 1px 1px 3px darkgreen;
+}
+
+h3 {
+    color: darkslategray;
+}
+
 .navigatiebar {
     background-color: #64A164;
     padding: 10px;
@@ -39,7 +48,53 @@ h1 {
     color: darkseagreen;
 }
 
+/*hieronder css voor bibliotheek*/
+
+.bibliotheek {
+    text-align: center;
+}
+
+.tekst {
+    background-color: #00fd0046;
+    border: 10px double darkgreen;
+    border-radius: 30px;
+    width: 500px;
+    padding: 25px 50px;
+    text-align: center;
+    margin-left: 75px;
+    margin-top: 55px;
+}
+
+.socials {
+    margin-left: 40%;  
+}
+
+.socials td {
+    font-size: 27px;
+    font-weight: bold;
+    color: darkslategray;
+    text-shadow: 1px 1px 3px darkgreen;
+}
+
+.goodreads-logo {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+}
+
+.storygraph-logo {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+}
+
 /*hieronder css voor contact*/
+
+.vul-in {
+    color: darkslategray;
+    text-shadow: 1px 1px 3px darkgreen;
+    font-size: 32px;
+}
 
 .contact {
     text-align: center;
@@ -94,7 +149,6 @@ input[type="submit"]:hover {
 }
 
 
-
 /*hieronder css voor tbr*/
 
 img {
@@ -114,7 +168,7 @@ table {
     border-collapse: collapse;
 }
 
-tr {
+.tbr tr {
     border-bottom: 2px solid rgba(0, 100, 0, 0.3);
 }
 
