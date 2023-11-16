@@ -34,6 +34,11 @@ h1 {
     color: darkseagreen;
 }
 
+#active {
+    text-decoration: underline;
+    color: darkseagreen;
+}
+
 /*hieronder css voor contact*/
 
 .contact {
