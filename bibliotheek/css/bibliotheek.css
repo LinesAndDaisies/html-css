@@ -224,3 +224,28 @@ td {
     font-weight: bold;
 }
 
+/* hieronder css voor mijn boeken*/
+
+.mijnboeken-tabel {
+    column-count: 2; /* Het aantal kolommen waarin de tabel moet worden gesplitst */
+    column-gap: 20px; /* Ruimte tussen de kolommen */
+    display: flex;
+    justify-content: space-between;
+}
+
+.mijnboeken-tabel li {
+    list-style-type: none;
+}
+
+.al-mijn-boeken {
+    width: 100%; /* Zorgt ervoor dat de tabel de volledige breedte van de kolom inneemt */
+    margin-bottom: 20px; /* Voeg wat ruimte toe onder de tabel */
+    border-collapse: collapse;
+    width: 48%; /* Voeg een beetje marge toe tussen de tabellen */
+}
+
+.al-mijn-boeken td, .al-mijn-boeken th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
