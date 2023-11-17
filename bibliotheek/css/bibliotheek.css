@@ -94,11 +94,16 @@ h3 {
     color: darkslategray;
 }
 
-.socials {
-    margin-left: 40%;  
+footer {
+    background-color: #64A164;  
+    display: flex;
+    justify-content: center; /* Horizontale uitlijning in het midden van de pagina */
+    align-items: center; /* Verticale uitlijning in het midden van de pagina */
+    margin-top: 20px;
+    padding: 1px 0;
 }
 
-.socials td {
+footer td {
     font-size: 27px;
     font-weight: bold;
     color: darkslategray;
