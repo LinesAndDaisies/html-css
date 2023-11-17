@@ -50,18 +50,20 @@ h3 {
 
 /*hieronder css voor bibliotheek*/
 
-.bibliotheek {
+
+.content-bibliotheek {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titel-bibliotheek {
     text-align: center;
 }
 
 .tekst {
-    background-color: #00fd0046;
-    border: 10px double darkgreen;
-    border-radius: 30px;
     width: 500px;
-    padding: 25px 50px;
-    text-align: center;
-    margin-left: 75px;
+    padding: 25px;
+    margin-left: 50px;
     margin-top: 55px;
 }
 
@@ -69,22 +71,27 @@ h3 {
     background-color: #00fd0046;
     border: 10px double darkgreen;
     border-radius: 30px;
-    width: 400px;
+    width: 250px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 55px;
+    text-align: center;
 }
 
 .nieuws ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    padding-left: 5px;
+    padding: 0 5px;
 }
 
-.nieuws ul > ul > li {
-    padding-left: 25px;
+.nieuws ul > ul > li:last-child {
+    margin-bottom: 15px;
 }
 
 .bold {
     font-weight: bold;
+    font-size: 18px;
+    color: darkslategray;
 }
 
 .socials {
