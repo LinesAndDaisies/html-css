@@ -185,6 +185,12 @@ input[type="submit"]:hover {
 
 /*hieronder css voor tbr*/
 
+#rowCount {
+    border-bottom: 2px solid rgba(0, 100, 0, 0.3);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
 img {
     width: 100px;
     height: auto;
@@ -226,30 +232,80 @@ td {
 
 /* hieronder css voor mijn boeken*/
 
-.mijnboeken-tabel {
-    column-count: 2; /* Het aantal kolommen waarin de tabel moet worden gesplitst */
-    column-gap: 20px; /* Ruimte tussen de kolommen */
-    display: flex;
-    justify-content: space-between;
+.tabel-boeken tr td:nth-child(4n-1) {
+    width: 500px;
 }
 
-.mijnboeken-tabel li {
+.mijnboeken-tabel {
+    table-layout: fixed;
+}
+
+.mijnboeken-tabel td {
+    border: 1px solid white;
+}
+
+.mijnboeken-tabel ul {
+    padding-inline-start: 0; /*Zodat de opsommingsruimte weg is voor de ul */
     list-style-type: none;
 }
 
-.al-mijn-boeken {
-    width: 100%; /* Zorgt ervoor dat de tabel de volledige breedte van de kolom inneemt */
-    margin-bottom: 20px; /* Voeg wat ruimte toe onder de tabel */
+
+/* .al-mijn-boeken {
+    width: 100%; /* Zorgt ervoor dat de tabel de volledige breedte van de kolom inneemt 
+    margin-bottom: 20px; /* Voeg wat ruimte toe onder de tabel 
     border-collapse: collapse;
-    width: 48%; /* Voeg een beetje marge toe tussen de tabellen */
+    width: 48%; /* Voeg een beetje marge toe tussen de tabellen 
 }
 
-.al-mijn-boeken td, .al-mijn-boeken th {
+ .al-mijn-boeken td, .al-mijn-boeken th { 
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
+  } */
 
 
 /*Hieronder css voor reviews*/
 
+.content-reviews {
+    text-align: center;
+}
+
+.boek-reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Plaatst de div in het midden van de pagina */
+    border: 4px solid darkslategray;
+    background-color: #64A164;
+    border-radius: 30px;
+    width: 500px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+.boek-reviews h2 {
+    margin-bottom: 1px;
+}
+
+.boek-details {
+    display: flex;
+}
+
+.boek-reviews img {
+    max-width: 100%; /* Zorgt ervoor dat de afbeeldingen zich aanpassen aan de breedte van de container */
+}
+
+.boek-reviews ul {
+    list-style-type: none; 
+    padding: 0; /* Verwijdert de standaardopvulling van de lijst */
+}
+
+.boek-reviews ul li {
+    margin-bottom: 5px; /* Voegt ruimte toe tussen de lijstitems */
+    margin-left: 8px;
+}
+
+.boek-reviews p {
+    padding-bottom: 20px;
+    border-bottom: 2px solid darkslategray;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+{
+    "boek1":{
+        "titel": "Saga Vol.1",
+        "Auteur": "Brian K. Vaughan, Fiona Staples",
+        "Serie": "Saga #1",
+        "Genre": "Graphic Novel",
+        "Star-rating": "★★★★★",
+        "Samenvatting": "The sweeping tale of one young family fighting to find their place in the worlds. 
+        When two soldiers from opposite sides of a never-ending galactic war fall in love, they risk everything to bring a fragile new life into a dangerous old universe. 
+        Fantasy and science fiction are wed like never before in a sexy, subversive drama for adults.",
+        
+    }
+}
+
+<?php
+
+// Read the JSON file  
+$json = file_get_contents('books.json');
+
+// Decode the JSON file 
+$json_data = json_decode($json, true);
+
+// Display data 
+print_r($json_data);
+
+?>
