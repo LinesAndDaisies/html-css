@@ -1,311 +1,319 @@
 /*hieronder css voor algemeen*/
 
 body {
-    background-color: darkseagreen;
-    margin: 0;
-    padding: 0;
+  background-color: darkseagreen;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    color: darkgreen;
-    margin-top: 50px;
+  color: darkgreen;
+  margin-top: 50px;
 }
 
 h2 {
-    color: darkslategray;
-    text-shadow: 1px 1px 3px darkgreen;
+  color: darkslategray;
+  text-shadow: 1px 1px 3px darkgreen;
 }
 
 h3 {
-    color: darkslategray;
+  color: darkslategray;
 }
 
 .navigatiebar {
-    background-color: #64A164;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 20px;
+  background-color: #64a164;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 20px;
 }
 
 .navigatiebar a {
-    color: darkslategray;
-    text-decoration: none;
-    font-size: 17px;
-    margin-left: 10px;
-    margin-right: 10px;
+  color: darkslategray;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .navigatiebar a:hover {
-    text-decoration: underline;
-    color: darkseagreen;
+  text-decoration: underline;
+  color: darkseagreen;
 }
 
 #active {
-    text-decoration: underline;
-    color: darkseagreen;
+  text-decoration: underline;
+  color: darkseagreen;
 }
 
 /*hieronder css voor index*/
 
-
-.content-bibliotheek {
+.homelogo {
+    margin-top: 40px;
     display: flex;
-    justify-content: space-between;
 }
 
-.titel-bibliotheek {
+.homelogo h1 {
     text-align: center;
+}
+
+.content-bibliotheek {
+  display: flex;
+  justify-content: space-between;
 }
 
 .tekst {
-    width: 500px;
-    padding: 25px;
-    margin-left: 50px;
-    margin-top: 55px;
+  width: 500px;
+  padding: 25px;
+  margin-left: 50px;
+  margin-top: 55px;
 }
 
+.homefotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  width: 600px;
+  margin-top: 55px;
+}
+
+.homefotos img {
+  height: 150px;
+  object-fit: cover;
+  width: 150px;
+}
 .nieuws {
-    background-color: #00fd0046;
-    border: 10px double darkgreen;
-    border-radius: 30px;
-    width: 250px;
-    float: right;
-    margin-right: 50px;
-    margin-top: 55px;
-    text-align: center;
+  background-color: #00fd0046;
+  border: 10px double darkgreen;
+  border-radius: 30px;
+  width: 250px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 55px;
+  text-align: center;
 }
 
 .nieuws ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0 5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 5px;
 }
 
 .nieuws ul > ul > li:last-child {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .bold {
-    font-weight: bold;
-    font-size: 18px;
-    color: darkslategray;
+  font-weight: bold;
+  font-size: 18px;
+  color: darkslategray;
 }
 
 footer {
-    background-color: #64A164;  
-    display: flex;
-    justify-content: center; /* Horizontale uitlijning in het midden van de pagina */
-    align-items: center; /* Verticale uitlijning in het midden van de pagina */
-    margin-top: 20px;
-    padding: 1px 0;
+  background-color: #64a164;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 20px;
+  padding: 1px 0;
 }
 
 footer td {
-    font-size: 27px;
-    font-weight: bold;
-    color: darkslategray;
-    text-shadow: 1px 1px 3px darkgreen;
+  font-size: 27px;
+  font-weight: bold;
+  color: darkslategray;
+  text-shadow: 1px 1px 3px darkgreen;
 }
 
 .goodreads-logo {
-    width: 50px;
-    height: auto;
-    margin: 10px;
+  width: 50px;
+  height: auto;
+  margin: 10px;
 }
 
 .storygraph-logo {
-    width: 50px;
-    height: auto;
-    margin: 10px;
-}
-
-/*hieronder css voor contact*/
-
-.vul-in {
-    color: darkslategray;
-    text-shadow: 1px 1px 3px darkgreen;
-    font-size: 32px;
-}
-
-.contact {
-    text-align: center;
-}
-
-.sterren-rating {
-    font-size: 24px;
-    cursor: pointer;
-}
-
-.sterren-rating .ster {
-    display: inline-block;
-    margin-right: 5px;
-    color: darkgreen;
-}
-
-.contactformulier {
-    text-align: center;
-    background-color: #00fd0046;
-    border: 10px double darkgreen;
-    border-radius: 30px;
-    width: 400px;
-    margin: auto;
-    margin-top: 25px;
-    margin-bottom: 30px;
-    padding-bottom: 40px;
-
-}
-
-.contactformulier label {
-    font-size: 16px;
-}
-
-input[type="submit"] {
-    background-color: darkgreen;
-    color: white;
-    border: 2px solid darkgreen;
-}
-
-input[type="submit"]:hover {
-    background-color: darkseagreen;
-    color: black;
-    border: 2px solid black;
-}
-
-.contactformulier input[type="text"],
-.contactformulier textarea {
-    border-color: darkgreen;
-    border-width: 2px;
-    border-style: inset;
-    margin-bottom: 10px;
-}
-
-
-/*hieronder css voor tbr*/
-
-#rowCount {
-    border-bottom: 2px solid rgba(0, 100, 0, 0.3);
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-}
-
-img {
-    width: 100px;
-    height: auto;
-}
-
-thead {
-    font-size: 20px;
-    color: darkslategray;
-    text-shadow: 1px 1px 3px darkgreen;
-
-}
-
-table {
-    border-spacing: 10px;
-    border-collapse: collapse;
-}
-
-.tbr tr {
-    border-bottom: 2px solid rgba(0, 100, 0, 0.3);
-}
-
-td {
-    padding: 8px;
-}
-
-.Book-link:hover{
-    color: darkslategray;
-    text-decoration: underline;
-}
-
-.Book-link {
-    color: darkgreen;
-    text-decoration: none;
-}
-
-.Spoilers {
-    font-weight: bold;
+  width: 50px;
+  height: auto;
+  margin: 10px;
 }
 
 /* hieronder css voor mijn boeken*/
 
 .tabel-boeken tr td:nth-child(4n-1) {
     width: 500px;
-}
-
-.mijnboeken-tabel {
+  }
+  
+  .mijnboeken-tabel {
     table-layout: fixed;
-}
-
-.mijnboeken-tabel td {
-    border: 1px solid white;
-}
-
-.mijnboeken-tabel ul {
-    padding-inline-start: 0; /*Zodat de opsommingsruimte weg is voor de ul */
+  }
+  
+  #mijnboeken tr {
+    border-bottom: 2px solid rgba(0, 100, 0, 0.3);
+  }
+  
+  #mijnboeken th:nth-child(3) {
+    border-right: 2px solid rgba(0, 100, 0, 0.3);
+  }
+  
+  #mijnboeken td:nth-child(3) {
+    border-right: 2px solid rgba(0, 100, 0, 0.3);
+  }
+  
+  .mijnboeken-tabel ul {
+    padding-inline-start: 0; /*Zodat de opsommingsruimte weg is voor de ul*/
     list-style-type: none;
-}
-
-
-/* .al-mijn-boeken {
-    width: 100%; /* Zorgt ervoor dat de tabel de volledige breedte van de kolom inneemt 
-    margin-bottom: 20px; /* Voeg wat ruimte toe onder de tabel 
-    border-collapse: collapse;
-    width: 48%; /* Voeg een beetje marge toe tussen de tabellen 
-}
-
- .al-mijn-boeken td, .al-mijn-boeken th { 
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  } */
-
+  }
 
 /*Hieronder css voor reviews*/
 
 .content-reviews {
     text-align: center;
-}
-
-.boek-reviews {
+  }
+  
+  .boek-reviews {
     display: flex;
     flex-direction: column;
     align-items: center; /* Plaatst de div in het midden van de pagina */
     border: 4px solid darkslategray;
-    background-color: #64A164;
+    background-color: #64a164;
     border-radius: 30px;
     width: 500px;
     margin: auto;
     padding: 0px 10px;
-}
-
-.boek-reviews h2 {
+  }
+  
+  .boek-reviews h2 {
     margin-bottom: 1px;
-}
-
-.boek-details {
+  }
+  
+  .boek-details {
     display: flex;
-}
-
-.boek-reviews img {
+  }
+  
+  .boek-reviews img {
     max-width: 100%; /* Zorgt ervoor dat de afbeeldingen zich aanpassen aan de breedte van de container */
-}
-
-.boek-reviews ul {
-    list-style-type: none; 
+  }
+  
+  .boek-reviews ul {
+    list-style-type: none;
     padding: 0; /* Verwijdert de standaardopvulling van de lijst */
-}
-
-.boek-reviews ul li {
+  }
+  
+  .boek-reviews ul li {
     margin-bottom: 5px; /* Voegt ruimte toe tussen de lijstitems */
     margin-left: 8px;
-}
-
-.boek-reviews p {
+  }
+  
+  .boek-reviews p {
     padding-bottom: 20px;
     border-bottom: 2px solid darkslategray;
     text-align: center;
+  }
+
+/*hieronder css voor tbr*/
+
+#rowCount {
+    border-bottom: 2px solid rgba(0, 100, 0, 0.3);
+    padding-bottom: 1px;
+  }
+  
+  img {
+    width: 100px;
+    height: auto;
+  }
+  
+  thead {
+    font-size: 20px;
+    color: darkslategray;
+    text-shadow: 1px 1px 3px darkgreen;
+  }
+  
+  table {
+    border-spacing: 10px;
+    border-collapse: collapse;
+  }
+  
+  .tbr tr {
+    border-bottom: 2px solid rgba(0, 100, 0, 0.3);
+  }
+  
+  td {
+    padding: 8px;
+  }
+  
+  .Book-link:hover {
+    color: darkslategray;
+    text-decoration: underline;
+  }
+  
+  .Book-link {
+    color: darkgreen;
+    text-decoration: none;
+  }
+  
+  .Spoilers {
+    font-weight: bold;
+  }
+
+/*hieronder css voor contact*/
+
+.vul-in {
+  color: darkslategray;
+  text-shadow: 1px 1px 3px darkgreen;
+  font-size: 32px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.sterren-rating {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.sterren-rating .ster {
+  display: inline-block;
+  margin-right: 5px;
+  color: darkgreen;
+}
+
+.contactformulier {
+  text-align: center;
+  background-color: #00fd0046;
+  border: 10px double darkgreen;
+  border-radius: 30px;
+  width: 400px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+}
+
+.contactformulier label {
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: darkgreen;
+  color: white;
+  border: 2px solid darkgreen;
+}
+
+input[type="submit"]:hover {
+  background-color: darkseagreen;
+  color: black;
+  border: 2px solid black;
+}
+
+.contactformulier input[type="text"],
+.contactformulier textarea {
+  border-color: darkgreen;
+  border-width: 2px;
+  border-style: inset;
+  margin-bottom: 10px;
 }
