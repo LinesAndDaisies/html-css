@@ -48,15 +48,48 @@ h3 {
   color: darkseagreen;
 }
 
+footer {
+    background-color: #64a164;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;
+    padding: 1px 0;
+  }
+  
+  footer td {
+    font-size: 27px;
+    font-weight: bold;
+    color: darkslategray;
+    text-shadow: 1px 1px 3px darkgreen;
+  }
+  
+  .goodreads-logo {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+  }
+  
+  .storygraph-logo {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+  }
+
 /*hieronder css voor index*/
 
 .homelogo {
     margin-top: 40px;
     display: flex;
 }
+.homelogo img {
+    margin-left: 25px;
+    width: 150px;
+    height: auto;
+}
 
 .homelogo h1 {
-    text-align: center;
+    margin-left: 500px;
 }
 
 .content-bibliotheek {
@@ -68,7 +101,7 @@ h3 {
   width: 500px;
   padding: 25px;
   margin-left: 50px;
-  margin-top: 55px;
+  margin-top: 15px;
 }
 
 .homefotos {
@@ -111,34 +144,6 @@ h3 {
   font-weight: bold;
   font-size: 18px;
   color: darkslategray;
-}
-
-footer {
-  background-color: #64a164;
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  margin-top: 20px;
-  padding: 1px 0;
-}
-
-footer td {
-  font-size: 27px;
-  font-weight: bold;
-  color: darkslategray;
-  text-shadow: 1px 1px 3px darkgreen;
-}
-
-.goodreads-logo {
-  width: 50px;
-  height: auto;
-  margin: 10px;
-}
-
-.storygraph-logo {
-  width: 50px;
-  height: auto;
-  margin: 10px;
 }
 
 /* hieronder css voor mijn boeken*/
